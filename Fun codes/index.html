@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body id="body" onclick="fullScreen()">
+        <div class="stars"></div>
+        <button class="start-btn" id="startBtn">Open the card ✨</button>
+        <div id="wishesContainer" class="hidden">
+          <div id="wishes" class="wishes"></div>
+          <div id="choices" class="hidden">
+            <button class="choice-btn" onclick="makeChoice('bestfriend')">FriendShip Message</button>
+          </div>
+        </div>
+        <audio id="bgMusic" src="Jingle Bells with Lyrics _ Christmas Songs HD _ Christmas Songs and Carols [ ezmp3.cc ].mp3" loop></audio>
+        <audio id="bestFriendMusic" src="We Wish You a Merry Christmas with Lyrics _ Christmas Carol & Song [ ezmp3.cc ].mp3" loop></audio>
+        <button id="muteButton" class="mute-btn">🔊</button>
+        <script src="script.js"></script>
+</body>
+</html>
